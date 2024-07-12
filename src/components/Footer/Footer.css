@@ -1,0 +1,118 @@
+
+.footer_footer{
+    height: 402px;
+    padding: 0 0 30px 0;
+    background-color: rgba(0, 255, 255, 0);
+}
+
+.footer_footer_up{
+    height: 321px;
+    background: url("../../assets/logoes/footer-bg.png") no-repeat top right;
+    background-color: rgb(165, 188, 250);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.footer_footer_containt{
+    height: 253px;
+
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_socials{
+    height: 200px;
+    width: 550px;
+}
+
+.footer_fc_name{
+    font-weight: 700;
+    font-size: 30px;
+}
+.footer_social_paragraph{
+    font-size: 14.6px;
+}
+
+.footer_contact h4{
+    padding: 0 0 30px 0;
+}
+
+.footer_contact p{
+    font-size: 14px;
+}
+
+.footer_social_logos{
+    font-size: 25px;
+    padding: 10px 0 0 0;
+}
+
+.footer_links_list{
+    list-style: none;
+}
+
+.footer_links_list li{
+    padding: 15px 0 0 0;
+    font-size: 14px;
+}
+
+
+.footer_services_list{
+    list-style: none;
+}
+.footer_services_list li{
+    padding: 15px 0 0 0;
+    font-size: 14px;
+    color: #013289;
+}
+
+.footer_links{
+    height: 200px;
+    width: 220px;
+
+    padding: 0 0 0 20px;
+
+    
+}
+
+.footer_services{
+    height: 200px;
+    width: 220px;
+
+    padding: 0 0 0 20px;
+}
+
+.footer_contact{
+    height: 200px;
+    width: 330px;
+
+    padding: 0 0 0 20px;
+}
+
+.footer_contact p{
+    color: #444444;
+}
+
+.footer_footer_down{
+    height: 51px;
+    background-color: rgba(255, 0, 0, 0.677);
+}
+
+.footer_copyright{
+    padding: 30px 0 0 0;
+    display: flex;
+    justify-content: center;
+    color: #012970;
+}
+
+.footer_copyright h3{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footer_copyright span{
+    font-weight: 800;
+}

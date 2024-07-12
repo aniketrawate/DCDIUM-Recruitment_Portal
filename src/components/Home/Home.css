@@ -1,0 +1,247 @@
+.home_body{
+    font-family: "Arial", sans-serif;
+    padding:0;
+    margin:0;
+    background-color: #ffffff;
+  }
+
+
+  .frontimg {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
+
+  img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .cards {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: 20px; /* Added margin to separate from the image */
+  }
+
+  .title {
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 32px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1f91ce;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+
+  .cont {
+    width: 90%;
+    margin: 30px auto;
+    display: grid;
+    gap: 20px;
+    row-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    justify-content: space-around;
+  }
+
+  .card,
+  .cardss {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 0.3s ease, opacity 0.3s ease,
+      transform-origin 0.3s ease;
+    animation: fadeInUp 0.5s ease-out, scaleIn 0.5s ease-out;
+    overflow: hidden;
+    position: relative;
+    transform-origin: center bottom;
+  }
+
+  .card:hover,
+  .cardss:hover {
+    transform: translate(20px, -20px) scale(1.05);
+  }
+
+  .card .headline,
+  .cardss .headliness {
+    margin: 15px 0;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+  }
+
+  .card .text,
+  .cardss .textss {
+    margin: auto auto;
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .card-details,
+  .card-details {
+    padding: 20px;
+    background-color: #f5f5f5;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .card-details p,
+  .card-details p {
+    margin: 8px 0;
+    font-size: 14px;
+  }
+
+  .apply-btn,
+  .apply-btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+  .apply-btn:hover,
+  .apply-btn:hover {
+    background-color: #45a049;
+  }
+
+  .vacancies {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: 20px;
+  }
+
+  .vacancies .title {
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 32px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1f91ce;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+
+  .vacancies .cont {
+    width: 90%;
+    margin: 30px auto;
+    display: grid;
+    gap: 20px;
+    row-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    justify-content: space-around;
+  }
+
+  .vacancy-card {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 0.3s ease, opacity 0.3s ease,
+      transform-origin 0.3s ease;
+    animation: fadeInUp 0.5s ease-out, scaleIn 0.5s ease-out;
+    overflow: hidden;
+    position: relative;
+    transform-origin: center bottom;
+  }
+
+  .vacancy-card:hover {
+    transform: translate(20px, -20px) scale(1.05);
+  }
+
+  .vacancy-card .headline {
+    margin: 15px 0;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+  }
+
+  .vacancy-card .text {
+    margin: auto auto;
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .vacancy-card-details {
+    padding: 20px;
+    background-color: #f5f5f5;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .vacancy-card-details p {
+    margin: 8px 0;
+    font-size: 14px;
+  }
+
+  .vacancy-apply-btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+  .vacancy-apply-btn:hover {
+    background-color: #45a049;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes scaleIn {
+    from {
+      transform: scale(0.9);
+    }
+    to {
+      transform: scale(1);
+    }
+  }

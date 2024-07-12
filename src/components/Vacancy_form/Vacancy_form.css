@@ -1,0 +1,130 @@
+.vacancy_form_body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.vacancy_form_wrapper{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAFBFF;
+    /* border: 2px solid black; */
+    border-radius: 4px;
+    margin: 50px;
+    padding: 40px 0;
+}
+.vacancy_form_h1{
+    margin: auto;
+    font-weight: 600;
+    padding: 0 0 20px 0;
+    color: #012970;
+}
+.vacancy_form_rl_elements{
+    width: 84%;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 20px 0;
+}
+.vacancy_form_left{
+    width: 46%;
+}
+
+.vacancy_form_right{
+    width: 46%;
+}
+.vacancy_form_down_div{
+    width: 84%;
+    display: flex;
+    flex-direction: column;
+}
+
+.vacancy_form_element_title{
+    padding: 20px 0 20px 0;
+    font-weight: 400;
+    color: #012970;
+}
+.vacancy_form_element_title_below{
+    padding: 20px 0 20px 0;
+    font-weight: 400;
+    color: #012970;
+}
+
+.vacancy_form_inp{
+    width: 100%;
+    height: 40px;
+    /* background: transparent; */
+    border: none;
+    outline: none;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    font-size: 15px;
+    padding:10px;
+    font-weight: 400;
+}
+
+.vacancy_form_long_inp{
+    margin: 20px 0 20px 0;
+}
+
+.vacancy_form_last_date{
+    width: 100%;
+    height: 40px;
+    /* background: transparent; */
+    border: none;
+    outline: none;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    font-size: 15px;
+    padding:10px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.429);
+}
+
+.vacancy_form_long_inp{
+    width: 100%;
+    height: 40px;
+    /* background: transparent; */
+    border: none;
+    outline: none;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    font-size: 15px;
+    padding:10px;
+    font-weight: 400;
+
+}
+.vacancy_form_vacancy_h2{
+    padding: 0 0 20px 0;
+}
+
+.vacancy_form_textarea{
+    width: 100%;
+    /* background: transparent; */
+    border: none;
+    outline: none;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.vacancy_form_submit{
+    margin: 40px 0 0 0;
+    padding: 10px 30px 10px 30px;
+    font-size: 16px;
+    background-color: #4154F1;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    color: white;
+    animation-duration: 0.3s;
+    cursor: pointer;
+}
+
+
+.vacancy_form_submit:hover{
+    opacity: 0.9;
+}

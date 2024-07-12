@@ -1,0 +1,175 @@
+.job_info_body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    
+  }
+
+
+  .job_info_h2 , legend{
+    color: rgba(0, 0, 0, 0.719);
+  }
+  
+  .job_info_jobInfoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    height: 80%;
+    
+  }
+  
+  .job_info_jobInfo {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: left;
+    width: 100%;
+    animation: fadeInUp 1s ease-in-out;
+    margin-left: 2.5%;
+  }
+
+  .job_info_company{
+    color: rgb(65, 128, 245);
+    padding-bottom: 10px;
+  }
+  
+ .job_info_location {
+    color: #666;
+  }
+
+  
+  .job_info_logo-container {
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+  }
+  
+  .job_info_logo-container img {
+    max-width: 35px;
+    max-height: 35px; /* Adjust the maximum width of the image */
+    margin-right: 5px;
+    padding-left: 7px;
+    color: #666; /* Add space between the image and text */
+  }
+  
+  .job_info_logo-container p {
+    margin: 0;
+    
+    color: #666; /* Remove default margin to align text with the image */
+  }
+
+  .job_info_duration {
+    display: flex;
+    align-items: center;
+    margin-left: 13px;
+    
+  }
+  
+  .job_info_duration img {
+    max-width: 15px;
+    max-height: 15px; /* Adjust the maximum width of the image */
+    margin-right: 13px;
+    color: #666; /* Add space between the image and text */
+  }
+  
+  .job_info_duration p {
+    margin :0%;
+    
+    color: #666; /* Remove default margin to align text with the image */
+  }
+
+  .job_info_end-date {
+    display: flex;
+    align-items: center;
+    margin-left: 11px;
+    padding-top: 6.5px;
+  }
+  
+  .job_info_end-date img {
+    max-width: 18px;
+    max-height: 18px; /* Adjust the maximum width of the image */
+    margin-right: 11.5px;
+    color: #666; /* Add space between the image and text */
+  }
+  
+  .job_info_end-date p {
+    margin :0%;
+    
+    color: #666; /* Remove default margin to align text with the image */
+  }
+
+  .job_info_salary {
+    display: flex;
+    align-items: center;
+    margin-left: 3.8px;
+    padding-top: 6.5px;
+  }
+  
+  .job_info_salary img {
+    max-width: 20px;
+    max-height: 20px; /* Adjust the maximum width of the image */
+    margin-right: 15px;
+    padding-left: 10px;
+    
+    
+    color: #666; /* Add space between the image and text */
+  }
+  
+  .job_info_salary p {
+    margin :0%;
+    
+    color: #666; /* Remove default margin to align text with the image */
+  }
+
+  .job_info_description{
+    color: #666;
+    text-justify: auto;
+    padding-left: 10px;
+  }
+
+  
+  
+  
+  
+ 
+  .job_info_applyButton{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+
+  }
+
+
+  .job_info_applyButton button {
+    background-color: rgb(65, 128, 245);
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out , transform 0.3s ease-in-out;
+  }
+  
+  .job_info_applyButton button:hover {
+    background-color: #22ce3f;
+    transform: scale(1.1);
+    
+  }
+  
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

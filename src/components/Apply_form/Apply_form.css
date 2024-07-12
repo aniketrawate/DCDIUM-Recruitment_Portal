@@ -1,0 +1,147 @@
+
+.apply_form_main_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.apply_form_h1{
+    margin: auto;
+    font-weight: 600;
+    padding: 0 0 20px 0;
+    color: #012970;
+}
+.apply_form_wrapper{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAFBFF;
+    /* border: 2px solid black; */
+    border-radius: 4px;
+    margin: 50px;
+    padding: 40px 0;
+}
+
+.apply_form_rl_elements{
+    width: 84%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 20px 0;
+}
+
+.apply_form_left{
+    width: 46%;
+}
+
+.apply_form_right{
+    width: 46%;
+}
+
+
+.apply_form_element_title{
+    padding: 20px 0 20px 0;
+    font-weight: 400;
+    color: #012970;
+
+}
+
+.apply_form_inp{
+    width: 100%;
+    height: 40px;
+
+    border: none;
+    outline: none;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    font-size: 15px;
+    padding:10px;
+    font-weight: 400;
+
+}
+
+#apply_form_yout_discription{
+    font-weight: 400;
+    padding: 0 0 20px 0;
+    color: #012970;
+}
+
+.apply_form_dob{
+    width: 100%;
+    height: 40px;
+
+    border: none;
+    outline: none;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    font-size: 15px;
+    padding:10px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.429);
+}
+
+.apply_form_gender_div{
+    display: flex;
+    flex-direction: row;
+}
+.apply_form_gender{
+    width: 15%;
+    height: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.55);
+    border-radius: 4px;
+    font-size: 15px;
+    padding:0 0 0 0;
+    font-weight: 400;
+    margin: 6px 0 0 0;
+}
+
+.apply_form_span{
+    height: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 2px 30px 0px 0;
+    margin: 0 0 20px 0;
+    color: #012970;
+}
+
+.apply_form_emp_discription{
+    width: 84%;
+}
+
+.apply_form_textarea{
+    width: 100%;
+
+    border: none;
+    outline: none;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    font-size: 18px;
+    
+
+}
+
+
+.apply_form_submit{
+    margin: 40px 0 0 0;
+    padding: 10px 30px 10px 30px;
+    font-size: 16px;
+    background-color: #4154F1;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    color: white;
+    animation-duration: 0.3s;
+    cursor: pointer;
+}
+
+.apply_form_submit:hover{
+    opacity: 0.9;
+}
+
+.apply_form_r_inp{
+    display: flex;
+    align-items: flex-end;
+}
